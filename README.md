@@ -60,4 +60,6 @@ Diese heißt **virtualenv** und ist über python3.6 installiert worden
     + ein Commit machen: `git commit -m"Nachrit"` oder `git commit` und dannach die Nachricht eingeben.
     + eine Datei oder Ordner vom Zustand **untracked** zu dem zustand **Unmodifed**: git add datei-/Ordnername
     + zum ansehen der Commits: `tig`
-  
+    
+* Synchronisation der Versionenn
+  - commit --> fetch-->erbase-->push
