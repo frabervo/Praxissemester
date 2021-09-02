@@ -47,3 +47,17 @@ Diese heißt **virtualenv** und ist über python3.6 installiert worden
     ein Thema eines Drittens kann auch verwendet werden. Dafür muss das Thema inportiert werden.
     * Das THema zuerst installieren : `pip install sphinx_rtd_theme`
     * Das Thema importieren: Über die Zeile  html_theme=... folgendes eingeben: import sphinx_rtd_theme 
+
+## Git
+
+* Parameter für meinen Reprository
+  ** Name: `git config -global user.name "Franc Anougon"`
+  ** E-MAil: `git config -global user.email "bervotigoufack@yahoo.com"`
+
+* Einige Kommandos: 
+    + Status abfragen: `git status`
+    + Eine Datei/Ordner zum Status staged bringen: `git add dateiname.endung`
+    + ein Commit machen: `git commit -m"Nachrit"` oder `git commit` und dannach die Nachricht eingeben.
+    + eine Datei oder Ordner vom Zustand **untracked** zu dem zustand **Unmodifed**: git add datei-/Ordnername
+    + zum ansehen der Commits: `tig`
+  
