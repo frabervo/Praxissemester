@@ -36,7 +36,7 @@ Diese heißt **virtualenv** und ist über python3.6 installiert worden
     +++ schließen: 
     +++ Zuerst ** exit** drücken und dann `:wq` eingeben --> zum speichern und zurück auf dem Kommandozeile
 
-*Das Thema (Anzeigeformat) des Webseite ändern:
+* Das Thema (Anzeigeformat) des Webseite ändern:
 
     1. erste Möglichkeit
     sich ein Thema in der folgende Seite  [theme](https://www.sphinx-doc.org/en/master/usage/theming.html) aussuchen. Dann dieser Name in der Datei conf.py in der Zeile html_theme=... eingeben. 
