@@ -41,7 +41,7 @@ Diese heißt **virtualenv** und ist über python3.6 installiert worden
     1. erste Möglichkeit
     sich ein Thema in der folgende Seite  [theme][url1] aussuchen. Dann dieser Name in der Datei conf.py in der Zeile html_theme=... eingeben. 
 
-[url1]: https://www.sphinx-doc.org/en/master/usage/theming.html
+    [url1]: https://www.sphinx-doc.org/en/master/usage/theming.html
 
     2. zweite Möglichkeit 
     ein Thema eines Drittens kann auch verwendet werden. Dafür muss das Thema inportiert werden.
@@ -62,4 +62,4 @@ Diese heißt **virtualenv** und ist über python3.6 installiert worden
     + zum ansehen der Commits: `tig`
     
 * Synchronisation der Versionenn
-  - commit --> fetch-->erbase-->push
+  - git commit --> git fetch-->git rebase : `git rebase -i origin/main` -->push
