@@ -39,9 +39,7 @@ Diese heißt **virtualenv** und ist über python3.6 installiert worden
 *Das Thema (Anzeigeformat) des Webseite ändern:
 
     1. erste Möglichkeit
-    sich ein Thema in der folgende Seite  [theme][url1] aussuchen. Dann dieser Name in der Datei conf.py in der Zeile html_theme=... eingeben. 
-
-    [url1]: https://www.sphinx-doc.org/en/master/usage/theming.html
+    sich ein Thema in der folgende Seite  [theme](https://www.sphinx-doc.org/en/master/usage/theming.html) aussuchen. Dann dieser Name in der Datei conf.py in der Zeile html_theme=... eingeben. 
 
     2. zweite Möglichkeit 
     ein Thema eines Drittens kann auch verwendet werden. Dafür muss das Thema inportiert werden.
