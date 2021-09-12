@@ -94,5 +94,6 @@ Um ein Projekt in readthedocs importieren zu können, muss zuerst ein Konto eing
 Dann > next
 
 Für den Aufbau der Dokmentation wird per Default eine Version vorgeschlagen. Sie heißt **lastest**. Es muss überprüft werden, ob das Standard Branch in der erweiterte Einstellung übereinstimmt. 
-Administration --> advanced Settings --> Standard-Branch
+Administration --> advanced Settings --> Standard-Branch.
+Der Link für die Doku: https://praxissemester.readthedocs.io/en/main/
 
