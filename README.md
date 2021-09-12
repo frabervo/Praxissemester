@@ -93,4 +93,6 @@ Um ein Projekt in readthedocs importieren zu können, muss zuerst ein Konto eing
     * Repositor-Typ: Git
 Dann > next
 
+Für den Aufbau der Dokmentation wird per Default eine Version vorgeschlagen. Sie heißt **lastest**. Es muss überprüft werden, ob das Standard Branch in der erweiterte Einstellung übereinstimmt. 
+Administration --> advanced Settings --> Standard-Branch
 
