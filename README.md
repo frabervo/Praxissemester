@@ -11,6 +11,9 @@ Ich habe ein Clone von dem Reprository in meinem virtualen Ubuntu erstellt.
 
 Zur Erstellung der Sphinx-Documentation werde ich eine Virtuale Umgebung benutzen.
 Diese heißt **virtualenv** und ist über python3.6 installiert worden
+* Zum Installieren der Virtual Environement
+(1) Der Befehl `pip install virtualenv` eingeben.
+(2) Sich in dem Git Repository begehen und von dem Verzeichnis, die virtuelle Umgebung installieren: `python3.9 -m virtualen praxissemesterenv
 * Zum Aktivieren der virtualen Umgebung:
 
     `source praxissemesterenv/bin/activate` in dem Ordner der Reprository eingeben.\
@@ -50,8 +53,8 @@ Diese heißt **virtualenv** und ist über python3.6 installiert worden
 ## Git
 
 * Parameter für meinen Reprository
-  ** Name: `git config -global user.name "Franc Anougon"`
-  ** E-MAil: `git config -global user.email "bervotigoufack@yahoo.com"`
+** Name: `git config -global user.name "Franc Anougon"`
+** E-MAil: `git config -global user.email "bervotigoufack@yahoo.com"`
 
 * Einige Kommandos: 
     + Status abfragen: `git status`
