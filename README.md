@@ -2,7 +2,7 @@
 Hier werde ich mein Praxissemester organisieren und Kurse zusammen fassen
 Dafür habe ein Github reprository erstellt.
 
-## Installtion von der Github 
+## Installtion von der Github
 
 Mein Github ist mit meiner privaten E-Mail Adresse und meiner Hochschul-E-Mail Adresse.
 Ich habe ein Clone von dem Reprository in meinem virtualen Ubuntu erstellt.
@@ -17,6 +17,7 @@ Diese heißt **virtualenv** und ist über python3.6 installiert worden
 * Zum Deaktivieren der virtualen Umgebung:
 
     `deactivate`eingeben
+> Note: Die virtuelle Umgebung ist für die Benutzung von Sphinx. 
 
 ## Sphinx
 
@@ -58,6 +59,38 @@ Diese heißt **virtualenv** und ist über python3.6 installiert worden
     + ein Commit machen: `git commit -m"Nachrit"` oder `git commit` und dannach die Nachricht eingeben.
     + eine Datei oder Ordner vom Zustand **untracked** zu dem zustand **Unmodifed**: git add datei-/Ordnername
     + zum ansehen der Commits: `tig`
-    
+
+* Die Veränderung meinem PC in Github posten: Verfahren
+
+(1) git add: Fügt Dateien zum Staging-Bereich hinnzu.
+(2) git commit: Kommentiert die Veränderungen 
+(3) git push: Verschiebt Dateien in das Online-Verzeichnis
+
 * Synchronisation der Versionenn
-  - git commit --> git fetch-->git rebase : `git rebase -i origin/main` -->push
+
+  - git commit --> git fetch--> git rebase : `git rebase -i origin/main` --> push
+
+* Git ignore: Welche Dateien oder Verzeichnis müssen nicht geachtet/ ignoriert werden.
+
+
+
+
+## Meine Dokumentation in readthedocs.org hosten
+
+### Was ist readthedocs.org?
+
+READ the Docs ist eine kostenlose Platform zum Hosten von Dokumentationen. Er generiert Dokumentationen, die mit Sphinx geschrieben worden. Die Webseite wurde im JAhr 2010 von Eric Holscher, Bobby Grace und Charles Leifer erstellt. 
+
+### Ein Projekt in readthedocs.org importieren
+
+Um ein Projekt in readthedocs importieren zu können, muss zuerst ein Konto eingerichtet werden. Dann über das Profil auf **my projects** klicken. Da kann ein Projekt importiert werden. 
+
+1. Ein GIthub/ Gitlab Konto verbinden
+2. Manuell importieren
+3. Infos zu dem Git-Verzeichnis einfügen
+    * Name: Praxissemester 
+    * Repository-URL: clone über HTTP
+    * Repositor-Typ: Git
+Dann > next
+
+
